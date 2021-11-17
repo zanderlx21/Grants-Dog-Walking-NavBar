@@ -10,16 +10,30 @@ header {
 }
 
 p {
-    float: left; 
     font-weight: bold;
-    margin-left: 15px
+    margin-left: 15px;
 }
 
 a {
     color: rgba(255,255,255,0.8);
     text-decoration: none;
     font-weight: bold;
-    padding: 15px
+    padding: 15px;
 }
+
+.purpleNav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+}
+
+
 
 
