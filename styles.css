@@ -43,7 +43,7 @@ nav {
         
     }
         header {
-            height: 250px;
+            height: 210px;
             width: 50%;
             margin: auto;
         }
@@ -53,6 +53,10 @@ nav {
             flex-direction: column-reverse;
             align-items: flex-start;
             margin-left: 0;
+            position: absolute;
+            top: 56px;
+            
+            
         }
 }
 
